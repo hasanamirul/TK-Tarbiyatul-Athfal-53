@@ -7,21 +7,6 @@
     <title>TK Tarbiyatul Athfal 53</title>
     <link rel="icon" href="TK TA 5;3.png" type="image/x-icon" />
      <style>
-       
-      /* Menjadikan navigasi tetap di atas */
-       
-      #nav {
-        position: fixed
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000; /* Agar navbar tetap di atas konten lainnya */
-      }
-
-      /* Menambahkan margin pada bagian konten agar tidak tertutup navbar */
-      body {
-        padding-top: 70px; /* Sesuaikan tinggi navbar dengan padding */
-        
     table {
         width: 100%;
         border-collapse: collapse;
@@ -52,7 +37,7 @@
   </head>
   <body>
     <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border" id="nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border fixed-top" id="nav">
       <div class="container">
         <a class="navbar" href="#"><img src="rare.png" height="30" alt="TK Tarbiyatul Atfal 53" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
