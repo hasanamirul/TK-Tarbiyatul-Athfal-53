@@ -1,82 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <title>TK Tarbiyatul Athfal 53</title>
-    <link rel="icon" href="TK TA 5;3.png" type="image/x-icon" />
-    <style>
-        /* Menjadikan navigasi tetap di atas */
-        #nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000; /* Agar navbar tetap di atas konten lainnya */
-        }
+    <link rel="icon" href="TK TA 53.png" type="image/x-icon" />
+     <style>
+      /* Menjadikan navigasi tetap di atas */
+      #nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Agar navbar tetap di atas konten lainnya */
+      }
 
-        /* Menambahkan margin pada bagian konten agar tidak tertutup navbar */
-        body {
-            padding-top: 70px; /* Sesuaikan tinggi navbar dengan padding */
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        th,
-        td {
-            text-align: left;
-            padding: 12px;
-            border: 1px solid #ddd;
-        }
-
-        th {
-            background-color: #607d8b;
-            color: white;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-
-        tr:hover {
-            background-color: #f1f1f1;
-        }
+      /* Menambahkan margin pada bagian konten agar tidak tertutup navbar */
+      body {
+        padding-top: 70px; /* Sesuaikan tinggi navbar dengan padding */
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <!-- NAV -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light border" id="nav">
-        <div class="container">
-            <a class="navbar" href="#"><img src="rare.png" height="30" alt="TK Tarbiyatul Atfal 53" /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link text-dark active" aria-current="page" href="#nav">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" href="#daftar">PPDB</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link text-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tentang Kami</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#jumbotron">Profil Sekolah</a></li>
-                            <li><a class="dropdown-item" href="fasilitas.html">Fasilitas</a></li>
-                            <li><a class="dropdown-item" href="dataguru.html">Tenaga Pendidik</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link text-dark" href="#maps">Kontak Kami</a></li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar" href="#"><img src="rare.png" height="30" alt="TK Tarbiyatul Atfal 53" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link text-dark active" aria-current="page" href="#nav">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#daftar">PPDB</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tentang Kami</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#jumbotron">Profil Sekolah</a></li>
+                <li><a class="dropdown-item" href="fasilitas.html">Fasilitas</a></li>
+                <li><a class="dropdown-item" href="dataguru.html">Tenaga Pendidik</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#maps">Kontak Kami</a></li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- CAROUSEL -->
     <div id="carouselDekstop" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselDekstop" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselDekstop" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselDekstop" data-bs-slide
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselDekstop" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselDekstop" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselDekstop" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselDekstop" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselDekstop" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div id="carouselMobile" class="carousel slide d-lg-none" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselMobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselMobile" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselMobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="5.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMobile" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselMobile" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- SECTION JUMBOTRON -->
+    <div class="container py-5" id="jumbotron">
+      <div class="row py-3">
+        <div class="col-lg-7 mb-4">
+          <h1>TK Tarbiyatul Athfal 53 Mijen Semarang</h1>
+          <h4>Biso Ngaji Lan Duwe Budi Pekerti</h4>
+          <p>
+            TK TARBIYATUL ATHFAL 53 merupakan salah satu sekolah jenjang TK berstatus Swasta yang berada di wilayah Kec. Mijen, Kota Semarang, Jawa Tengah. TK TARBIYATUL ATHFAL 53 didirikan pada tanggal 29 Desember 2016 dengan Nomor SK
+            Pendirian 421.1/11235/2016 yang berada dalam naungan Kementerian Pendidikan dan Kebudayaan. Kepala Sekolah TK TARBIYATUL ATHFAL 53 saat ini adalah Muhimatul Aliyah. Operator yang bertanggung jawab adalah Muhimatul Aliyah.
+          </p>
+          <p>
+            <a href="#daftar"><button type="button" class="btn btn-dark">Info PPDB</button></a>
+            <a href="#jumbotron"><button type="button" class="btn btn-outline-dark">Profil Sekolah</button></a>
+          </p>
+        </div>
+        <div class="col-lg-5 mb-4">
+          <img src="4.jpg" class="d-block w-100 rounded" alt="..." />
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION KOLOM -->
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-3 mb-lg-4">
+          <div class="bg-light text-dark border text-center p-3 p-xl-4 rounded">
+            <div class="pb-3"><i class="fas fa-trophy fa-3x"></i></div>
+            <div class="h5 text-uppercase pb-2">Legalitas</div>
+            <div>SK Pendirian: 421.1/11235/2016 Tanggal SK Pendirian: 29 Desember 2016 SK Operasional: B/5408/421.1/V/20</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3 mb-lg-4">
+          <div class="bg-light text-dark border text-center p-3 p-xl-4 rounded">
+            <div class="pb-3"><i class="fas fa-award fa-3x"></i></div>
+            <div class="h5 text-uppercase pb-2">Terakreditasi B</div>
+            <div>Sekolah ini telah terakreditasi B dengan Nomor SK Akreditasi 156/BAN PAUD DAN PNF/AKR/2019 pada tanggal 9 Oktober 2019.</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3 mb-lg-4">
+          <div class="bg-light text-dark border text-center p-3 p-xl-4 rounded">
+            <div class="pb-3"><i class="fas fa-microscope fa-3x"></i></div>
+            <div class="h5 text-uppercase pb-2">Alamat</div>
+            <div>Alamat TK TARBIYATUL ATHFAL 53 terletak di JL. RAYA KEDUNGJANGAN, Purwosari, Kec. Mijen, Kota Semarang, Jawa Tengah.</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3 mb-lg-4">
+          <div class="bg-light text-dark border text-center p-3 p-xl-4 rounded">
+            <div class="pb-3"><i class="fas fa-shapes fa-3x"></i></div>
+            <div class="h5 text-uppercase pb-2">Kontak</div>
+            <div>Anda bisa menghubungi TK TARBIYATUL ATHFAL 53 melalui email tktarbiyatulathfal53@gmail.com .</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 3 GALLERY -->
+    <div class="container pb-5">
+      <div class="row pb-3 align-items-top">
+        <div class="col-xxl-5 col-lg-6 mb-3 mb-lg-4">
+          <div class="bg-dark text-white p-3 rounded">
+            <div class="h5 text-uppercase pb-2">Gallery Sekolah</div>
+            <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="3.jpg" class="d-block w-100 rounded" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100 rounded" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="1.jpg" class="d-block w-100 rounded" alt="..." />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-7 col-lg-6 mb-3 mb-lg-4">
+          <div class="h5 text-uppercase">Artikel &amp; Kegiatan Sekolah</div>
+          <div class="d-flex py-3 border-bottom">
+            <div class="me-3 me-lg-4"><img src="https://naevaschool.naevaweb.my.id/userfiles/uploads/img-edukasi-57.jpg" class="rounded" alt="..." width="64" /></div>
+            <div>
+              <div><a href="fasilitas.html" class="text-decoration-none text-dark">Fasilitas TK Tarbiyatul Athfal 53</a></div>
+              <div class="small text-secondary">Info lanjut tentang Fasilitas TK Tarbiyatul Athfal 53 bisa klik halaman ini</div>
+            </div>
+          </div>
+          <div class="d-flex py-3 border-bottom">
+            <div class="me-3 me-lg-4"><img src="https://naevaschool.naevaweb.my.id/userfiles/uploads/img-edukasi-64.jpg" class="rounded" alt="..." width="64" /></div>
+            <div>
+              <div><a href="#" class="text-decoration-none text-dark">Kegiatan sekolah</a></div>
+              <div class="small text-secondary">Senam pagi setiap hari jumat dan Manasik Haji setiap setahun sekali dalam satu angkatan murid</div>
+            </div>
+          </div>
+          <div class="d-flex py-3 border-bottom">
+            <div class="me-3 me-lg-4"><img src="https://naevaschool.naevaweb.my.id/userfiles/uploads/img-edukasi-5-4.jpg" class="rounded" alt="..." width="64" /></div>
+            <div>
+              <div><a href="#" class="text-decoration-none text-dark">Penerapan Kurikulum yang Inklusif</a></div>
+              <div class="small text-secondary">Kurikulum PAUD Merdeka.Penyelenggaraan Sekolah Pagi dan 6 hari,Manajemen Berbasis Sekolah Berdasarkan Data Semester 2024/2025</div>
+            </div>
+          </div>
+          <div class="pt-3">
+            <a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/7ca9dec8-c64c-4aa0-a458-eac0beba15cc"><button type="button" class="btn btn-dark btn-sm">Selengkapnya</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 4 SEGERA DAFTAR-->
+    <div class="py-2" id="daftar">
+      <div class="container text-center bg-success text-white py-5">
+        <div class="fs-2 mb-3">Segera Daftar!</div>
+        <p>
+          Jika ingin mengetahui info lebih lanjut mengenai PPDB atau penerimaan siswa baru serta biaya masuk plus uang muka pendaftaran TK Tarbiyatul Athfal 53, Kota Semarang dapat menghubungi sekolah melalui email
+          tktarbiyatulathfal53@gmail.com.
+        </p>
+        <div class="pt-2">
+          <a href="infolengkap.html"><button type="button" class="btn btn-outline-light me-2">Info Lebih Lanjut</button></a>
+          <a href="mailto:tktarbiyatulathfal53@gmail.com"><button type="button" class="btn btn-outline-light">Daftar Sekarang</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 5 MAPS -->
+    <div class="py-5" id="maps">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.46593282106448!2d110.33580939325407!3d-7.0731365831747395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089e376e7e565%3A0x47cc658757990f50!2sMasjid%20Al%20Mujahidin!5e0!3m2!1sid!2sid!4v1728667345195!5m2!1sid!2sid"
+              width="100%"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <p>Bila ada pertanyaan jangan ragu untuk menghubungi kami</p>
+            <div class="d-flex mb-2">
+              <div class="me-3"><i class="fa-solid fa-location-dot"></i></div>
+              <div>Jl. Raya Kedungjangan, Kecamatan Mijen, Kota Semarang, Jawa Tengah.</div>
+            </div>
+            <div class="d-flex mb-2">
+              <div class="me-3"><i class="fa-solid fa-envelope"></i></div>
+              <div>tktarbiyatulathfal53@gmail.com</div>
+            </div>
+            <div class="pt-3">
+              <a href="https://www.google.com/maps/place/Masjid+Al+Mujahidin/@-7.0732162,110.3358706,21z/data=!4m6!3m5!1s0x2e7089e376e7e565:0x47cc658757990f50!8m2!3d-7.0730984!4d110.3358959!16s%2Fg%2F11f10gx7fz?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" class="btn btn-icon btn-dark me-2"><i class="fa-solid fa-location-dot"></i></a>
+              <a href="mailto:tktarbiyatulathfal53@gmail.com" class="btn btn-icon btn-dark me-2"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="bg-dark text-white py-3">
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mb-3">
+            <div class="h5">Tentang Kami</div>
+            <div>TK Tarbiyatul Athfal 53 adalah sebuah institusi pendidikan TK swasta yang yang berlokasi di Jl. Raya Kedungjangan, Kota Semarang.</div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="h5">Halaman</div>
+            <ul class="list-unstyled">
+              <li class="pb-1"><a href="#daftar" class="text-white text-decoration-none">PPDB</a></li>
+              <li class="pb-1"><a href="#maps" class="text-white text-decoration-none">Tentang Kami</a></li>
+              <li class="pb-1"><a href="#maps" class="text-white text-decoration-none">Kontak Kami</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="h5">Update</div>
+            <ul class="list-unstyled">
+              <li class="pb-1"><a href="#" class="text-white text-decoration-none">Kegiatan Sekolah</a></li>
+              <li class="pb-1"><a href="#" class="text-white text-decoration-none">Kegiatan Wali Murid</a></li>
+              <li class="pb-1"><a href="#" class="text-white text-decoration-none">Pengumuman</a></li>
+              <li class="pb-1"><a href="#" class="text-white text-decoration-none">Update Prestasi</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark text-white py-3 border-top border-secondary">
+      <div class="container">
+        <div class="d-lg-flex justify-content-between">
+          <div class="mb-2 mb-lg-0">Copyright &copy; 2024 Kelompok 1</div>
+          <div class="mb-2 mb-lg-0">TK Tarbiyatul Athfal <a href="https://naevaweb.com" class="text-white text-decoration-none">53</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- JS -->
+    <script src="https://kit.fontawesome.com/851d4367e8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
